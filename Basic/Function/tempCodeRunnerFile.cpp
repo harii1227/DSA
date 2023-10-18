@@ -1,6 +1,7 @@
-void printLine(){
-    for(int i=0 ; i<10 ;i++)
-    {
-        cout<<"Raman 2601"<<endl;
-    }
-}
+if(prime){
+    //     cout<<"its a prime number"<<endl;
+    // }
+    // else{
+    //     cout<<"not prime"<<endl;
+    // }
+    
