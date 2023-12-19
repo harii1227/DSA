@@ -1,1 +1,2 @@
-mid=(start+end)/2;
+int n =-5;
+    // cout<<abs(n)<<endl;
