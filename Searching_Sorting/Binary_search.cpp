@@ -28,7 +28,7 @@ int binarysearch(int arr[] , int n , int target ){
 }
  int main(){
     int arr[]={2,3,4,5,6,7,6,43,34};
-    int target =34;
+    int target =3;
     int n=9;
 
     int ansIndex = binarysearch(arr , n , target);
