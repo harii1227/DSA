@@ -39,7 +39,7 @@ int main()
 
     char ch[100];
     cin.getline(ch, 100);
-    int len = findlength(ch, 100);
+    int len = findlength(ch, 100); 
     cout << "length of string: " << len << endl;
     cout<<"printing length : "<<strlen(ch)<<endl;
 
