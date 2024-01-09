@@ -11,7 +11,7 @@ int findlength(char ch[], int size)
          {
              break;
          }
-         else
+         else 
          {
              length++;
          }
