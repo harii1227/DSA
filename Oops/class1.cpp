@@ -54,6 +54,7 @@ int main()
     s2.id=4;
     s2.nos=400;
     s2.present=2;
+    cout<<s1.name<<endl;
 
     //    int a;
     //     int b;
