@@ -17,6 +17,18 @@ class Node{
     }
 };
 
+void printlist(Node* head){
+    int count=0;
+    Node* temp=head;
+
+    while(temp!=NULL){
+        cout<<temp->data<<"->";
+        temp=temp->next;
+        count++;
+    }
+    cout<<"number of nodes : "<<count<<endl;
+}
+
 int main(){
 
 
@@ -29,7 +41,22 @@ int main(){
     Node* second=new Node(20);
     Node* third=new Node(30);
     Node* fourth=new Node(40);
-    Node* fifth=new Node(10);
+    Node* fifth=new Node(60);
+
+
+//creation of linked list;
+    first ->next=second;
+    second ->next=third;
+    third ->next=fourth;
+    fourth ->next=fifth;
+    fifth ->next=NULL;
+
+    Node* head=first;
+    cout<<"printing all LL"<<endl;
+    printlist(head);
+
+
+
 
 
     return 0;
