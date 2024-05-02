@@ -1,4 +1,3 @@
-Node(){
-    //     cout<<"this is default constructor"<<endl;
-    //     this->next=NULL;
-    // }
+ deleteNode(head, tail, 3);
+        print(head);
+        cout << endl;
