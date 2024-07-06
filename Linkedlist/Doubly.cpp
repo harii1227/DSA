@@ -125,7 +125,7 @@ void deleteNode(Node* &head, Node* &tail, int position) {
 
   int len = findLength(head);
   if(position == 1) {
-    //delete from head
+    //delete from head   
     Node* temp = head;
     head = head -> next;
     temp -> next = NULL;
